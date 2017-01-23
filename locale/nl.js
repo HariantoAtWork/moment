@@ -37,7 +37,7 @@ var nl = moment.defineLocale('nl', {
     shortMonthsParse : monthsParse,
 
     weekdays : 'zondag_maandag_dinsdag_woensdag_donderdag_vrijdag_zaterdag'.split('_'),
-    weekdaysShort : 'zo._ma._di._wo._do._vr._za.'.split('_'),
+    weekdaysShort : 'zon_maa_die_woe_don_vri_zat'.split('_'),
     weekdaysMin : 'Zo_Ma_Di_Wo_Do_Vr_Za'.split('_'),
     weekdaysParseExact : true,
     longDateFormat : {
